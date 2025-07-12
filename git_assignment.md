@@ -1,5 +1,5 @@
 1. Staging all changes and committing with a meaningful message
-git add .
+git add .                          # Stages all changes (new, modified, deleted files)
 git commit -m "Your meaningful commit message here"
 
 2. Committed to the wrong branch: move commits to the correct branch
@@ -26,25 +26,25 @@ git commit -m "Add feature implementation"
 git push origin feature-branch
 
 4. Contribute to an open-source project (fork → pull request)
-i-Fork the repository from GitHub.
+Fork the repository from GitHub.
 
-ii-Clone the forked repo to your machine:
+Clone the forked repo to your machine:
 git clone https://github.com/your-username/project.git
 cd project
 
-iii-Create a new branch for your changes:
+Create a new branch for your changes:
 git checkout -b fix-issue-123
 
-iv-Make changes and commit:
+Make changes and commit:
 git add .
 git commit -m "Fix bug in XYZ functionality"
 
-v-Push the branch:
+Push the branch:
 git push origin fix-issue-123
 
-vi-Create a pull request from your forked repo to the original repo on GitHub.
+Create a pull request from your forked repo to the original repo on GitHub.
 
-vii-Collaborate via GitHub PR reviews.
+Collaborate via GitHub PR reviews.
 
 5. Resolve merge conflicts between your branch and main
 # Step 1: Switch to your feature branch
